@@ -17,7 +17,6 @@ A simple **Tic-Tac-Toe** game implemented in **Java**. The game allows two playe
 - Detects win, draw, and invalid moves
 
 ## 📜 Rules
-```txt
 1. The game is played on a 3x3 grid.
 2. Players take turns placing their marks (X or O) on an empty cell.
 3. The first player to get three marks in a row, column, or diagonal wins.
