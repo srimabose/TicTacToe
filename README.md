@@ -1,19 +1,26 @@
-# Tic-Tac-Toe in Java
+# Tic-Tac-Toe Game 🎮
 
-This is a simple implementation of the Tic-Tac-Toe game in Java. It allows two players to play the game in the command line by taking turns entering the row and column where they want to place their mark. The game ends when one of the players wins or when the grid is full and no more moves can be made. The game checks for winning combinations in rows, columns, and diagonals, and prints the winner (if any) or a message indicating that the game ended in a tie.
+A simple **Tic-Tac-Toe** game implemented in **Java**. The game allows two players to play against each other in a terminal-based interface.
 
-## Usage
+## 🖥️ Screenshots
 
-To run the game, clone the repository and compile the `TicTacToe.java` file with the following command:
+### Game Start
+![Game Start](img/screenshot1.png)
 
-```java
-javac TicTacToe.java
-```
+### Game Over
+![Game Over](img/screenshot2.png)
 
-Then, run the compiled class file with the following command:
+## 🚀 Features
+- Two-player mode
+- Simple command-line interface
+- Real-time game status updates
+- Detects win, draw, and invalid moves
 
-```java
-java TicTacToe
-```
-
-This will start the game and prompt the first player to enter their move. The players will take turns entering the row and column where they want to place their mark (X or O). The game will continue until someone wins or there are no more empty spaces on the grid.
+## 📜 Rules
+```txt
+1. The game is played on a 3x3 grid.
+2. Players take turns placing their marks (X or O) on an empty cell.
+3. The first player to get three marks in a row, column, or diagonal wins.
+4. If all cells are filled and no player has won, the game ends in a draw.
+5. A move is considered invalid if the chosen cell is already occupied or out of range.
+6. The game continues until a player wins or there is a draw.
